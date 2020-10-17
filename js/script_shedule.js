@@ -111,7 +111,7 @@ if (date.getDay() == 5 ){
 
 
 }
-if ( date.getDay == 6) {
+if ( date.getDay() == 6) {
     day_banner.innerHTML = "Saturday";
    let li = document.createElement('li');
    let text = document.createTextNode("FREE TIME ");
@@ -119,7 +119,7 @@ if ( date.getDay == 6) {
    li.appendChild(text);
    ul.appendChild(li);
 }
-if ( date.getDay == 7) {
+if ( date.getDay() == 7) {
     day_banner.innerHTML = "SUNDAY";
    let li = document.createElement('li');
    let text = document.createTextNode("FREE TIME ");
